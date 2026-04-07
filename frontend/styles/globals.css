@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-zinc-950 text-zinc-100;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+.input {
+  @apply w-full rounded-md border border-zinc-700 bg-zinc-900 px-3 py-2 text-sm focus:border-viraj-orange focus:outline-none;
+}
+
+.card {
+  @apply rounded-xl border border-zinc-800 bg-zinc-900/70 shadow-lg;
+}
+
+.btn {
+  @apply rounded-md px-4 py-2 text-sm font-medium transition;
+}
+
+.btn-primary {
+  @apply btn bg-viraj-orange text-black hover:bg-orange-400;
+}
+
+.btn-muted {
+  @apply btn bg-zinc-800 hover:bg-zinc-700;
+}
