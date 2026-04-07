@@ -1,12 +1,25 @@
-- 👋 Hi, I’m @RPCreation
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# VirajAI Resume Maker
 
-<!---
-RPCreation/RPCreation is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Monorepo with:
+- `frontend` (Next.js + Tailwind + React Hook Form + Zod)
+- `backend` (Node.js + Express + MongoDB + Puppeteer)
+
+## Quick Start
+
+### 1) Backend
+```bash
+cd backend
+cp .env.example .env
+npm install
+npm run dev
+```
+
+### 2) Frontend
+```bash
+cd frontend
+cp .env.local.example .env.local
+npm install
+npm run dev
+```
+
+Frontend runs on `http://localhost:3000` and calls backend on `http://localhost:5000` by default.
